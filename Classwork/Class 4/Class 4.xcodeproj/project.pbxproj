@@ -36,6 +36,7 @@
 		4219BF2C1A5B6347007E4B5A /* Class 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Class 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4219BF311A5B6347007E4B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4219BF321A5B6347007E4B5A /* Class_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class_4Tests.swift; sourceTree = "<group>"; };
+		4219BF3C1A5B637B007E4B5A /* Intro to Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Intro to Swift.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 				4219BF231A5B6347007E4B5A /* Images.xcassets */,
 				4219BF251A5B6347007E4B5A /* LaunchScreen.xib */,
 				4219BF1A1A5B6347007E4B5A /* Supporting Files */,
+				4219BF3C1A5B637B007E4B5A /* Intro to Swift.playground */,
 			);
 			path = "Class 4";
 			sourceTree = "<group>";
