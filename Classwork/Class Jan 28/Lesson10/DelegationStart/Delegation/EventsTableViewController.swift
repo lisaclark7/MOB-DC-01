@@ -8,14 +8,11 @@
 
 import UIKit
 
-class EventsTableViewController: UITableViewController {
+class EventsTableViewController: UITableViewController, EventProtocoal {
     // event array
     var arrEvents:[Event] = []
 
 
-    
-    
-    
     // MARK: - Table view data source
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 0
