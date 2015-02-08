@@ -16,33 +16,20 @@ view.backgroundColor = UIColor.purpleColor()
 
 class Animal {
     var species: String = ""
-    var legs: Int
-    init(legs: Int, name: String) {
-        self.legs = legs
+    var name: String = ""
+    
+    func stringRepresentation() ->String {
+        return ("The animal is a \(self.species), its name is \(self.name)")
     }
-
-    func speak() {
-        println("AAAHHHHH!")
+    
+    func printAnimalName(animal: Animal) {
+        println("The animal is a \(self.species), its name is \(self.name)")
     }
-}
-
-class Dog: Animal {
-//var legs = 4
-    init(legs: Int) {
-
-    }
-
-    var isSmart = true
-    override func speak() {
-        println("Woof!")
-    }
-}
-
-var doggie = Dog(legs: 4, name: "Ena")
-doggie.legs
-doggie.speak()
-doggie.isSmart = false
-
+    
+    var doggie = Animal()
+    doggie.name = "Ena"
+    doggie.species = "dog"
+    printAnimalName(doggie)
 
 
 

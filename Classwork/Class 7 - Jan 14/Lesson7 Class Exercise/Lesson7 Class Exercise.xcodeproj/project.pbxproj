@@ -88,7 +88,6 @@
 				42387F571A673B3100E64B8C /* Images.xcassets */,
 				42387F591A673B3200E64B8C /* LaunchScreen.xib */,
 				42387F4E1A673B3100E64B8C /* Supporting Files */,
-				42387F721A674FC400E64B8C /* ClassesExample.playground */,
 				42387F731A6759BE00E64B8C /* ClassesExample2.playground */,
 			);
 			path = "Lesson7 Class Exercise";
@@ -97,6 +96,7 @@
 		42387F4E1A673B3100E64B8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				42387F721A674FC400E64B8C /* ClassesExample.playground */,
 				42387F4F1A673B3100E64B8C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -413,6 +413,7 @@
 				42387F6C1A673B3200E64B8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42387F6D1A673B3200E64B8C /* Build configuration list for PBXNativeTarget "Lesson7 Class ExerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				42387F6F1A673B3200E64B8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

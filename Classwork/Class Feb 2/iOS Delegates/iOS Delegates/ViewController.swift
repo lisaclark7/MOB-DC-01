@@ -72,7 +72,5 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
 }
 
-//1. In our "Add new" scene, check if the text field is empty
-//2. If the text field is empty, hide the keyboard, and display a label telling the user to fill something in
-//3. Bonus: Remove the table view controller and replace it with a table view
+
 
