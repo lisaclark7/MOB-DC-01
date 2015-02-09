@@ -13,6 +13,7 @@
 		425CD1D81A82F1720029C804 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425CD1D71A82F1720029C804 /* Images.xcassets */; };
 		425CD1DB1A82F1720029C804 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425CD1D91A82F1720029C804 /* LaunchScreen.xib */; };
 		425CD1E71A82F1720029C804 /* Programmatic_ViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425CD1E61A82F1720029C804 /* Programmatic_ViewsTests.swift */; };
+		42B2F2791A8936D2007DBFEE /* IMG_2473.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 42B2F2781A8936D2007DBFEE /* IMG_2473.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		425CD1E01A82F1720029C804 /* Programmatic ViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Programmatic ViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		425CD1E51A82F1720029C804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		425CD1E61A82F1720029C804 /* Programmatic_ViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmatic_ViewsTests.swift; sourceTree = "<group>"; };
+		42B2F2781A8936D2007DBFEE /* IMG_2473.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2473.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		425CD1CD1A82F1720029C804 /* Programmatic Views */ = {
 			isa = PBXGroup;
 			children = (
+				42B2F2781A8936D2007DBFEE /* IMG_2473.PNG */,
 				425CD1D01A82F1720029C804 /* AppDelegate.swift */,
 				425CD1D21A82F1720029C804 /* ViewController.swift */,
 				425CD1D41A82F1720029C804 /* Main.storyboard */,
@@ -195,6 +198,7 @@
 				425CD1D61A82F1720029C804 /* Main.storyboard in Resources */,
 				425CD1DB1A82F1720029C804 /* LaunchScreen.xib in Resources */,
 				425CD1D81A82F1720029C804 /* Images.xcassets in Resources */,
+				42B2F2791A8936D2007DBFEE /* IMG_2473.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				425CD1EC1A82F1720029C804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		425CD1ED1A82F1720029C804 /* Build configuration list for PBXNativeTarget "Programmatic ViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				425CD1EF1A82F1720029C804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

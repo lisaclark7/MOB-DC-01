@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
         dTap.numberOfTapsRequired = 2
         
-        self.swipeView.addGestureRecognizer(dTap)
+        self.swipeView.addGestureRecognizer(dTap) 
     }
     
     func doubleTapped(sender: UITapGestureRecognizer) {

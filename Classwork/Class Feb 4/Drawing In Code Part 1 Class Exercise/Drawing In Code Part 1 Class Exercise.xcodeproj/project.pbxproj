@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42B2F2891A894A02007DBFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B2F2881A894A02007DBFEE /* AppDelegate.swift */; };
+		42B2F28B1A894A02007DBFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B2F28A1A894A02007DBFEE /* ViewController.swift */; };
+		42B2F28E1A894A02007DBFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B2F28C1A894A02007DBFEE /* Main.storyboard */; };
+		42B2F2901A894A02007DBFEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B2F28F1A894A02007DBFEE /* Images.xcassets */; };
+		42B2F2931A894A02007DBFEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B2F2911A894A02007DBFEE /* LaunchScreen.xib */; };
+		42B2F29F1A894A02007DBFEE /* Drawing_In_Code_Part_1_Class_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B2F29E1A894A02007DBFEE /* Drawing_In_Code_Part_1_Class_ExerciseTests.swift */; };
+		42B2F2AB1A894B0C007DBFEE /* XLME Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B2F2AA1A894B0C007DBFEE /* XLME Logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42B2F2991A894A02007DBFEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42B2F27B1A894A02007DBFEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B2F2821A894A02007DBFEE;
+			remoteInfo = "Drawing In Code Part 1 Class Exercise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42B2F2831A894A02007DBFEE /* Drawing In Code Part 1 Class Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing In Code Part 1 Class Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B2F2871A894A02007DBFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B2F2881A894A02007DBFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42B2F28A1A894A02007DBFEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42B2F28D1A894A02007DBFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42B2F28F1A894A02007DBFEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42B2F2921A894A02007DBFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		42B2F2981A894A02007DBFEE /* Drawing In Code Part 1 Class ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing In Code Part 1 Class ExerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B2F29D1A894A02007DBFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B2F29E1A894A02007DBFEE /* Drawing_In_Code_Part_1_Class_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_In_Code_Part_1_Class_ExerciseTests.swift; sourceTree = "<group>"; };
+		42B2F2AA1A894B0C007DBFEE /* XLME Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "XLME Logo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42B2F2801A894A02007DBFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B2F2951A894A02007DBFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42B2F27A1A894A02007DBFEE = {
+			isa = PBXGroup;
+			children = (
+				42B2F2851A894A02007DBFEE /* Drawing In Code Part 1 Class Exercise */,
+				42B2F29B1A894A02007DBFEE /* Drawing In Code Part 1 Class ExerciseTests */,
+				42B2F2841A894A02007DBFEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42B2F2841A894A02007DBFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42B2F2831A894A02007DBFEE /* Drawing In Code Part 1 Class Exercise.app */,
+				42B2F2981A894A02007DBFEE /* Drawing In Code Part 1 Class ExerciseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42B2F2851A894A02007DBFEE /* Drawing In Code Part 1 Class Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				42B2F2881A894A02007DBFEE /* AppDelegate.swift */,
+				42B2F2AA1A894B0C007DBFEE /* XLME Logo.png */,
+				42B2F28A1A894A02007DBFEE /* ViewController.swift */,
+				42B2F28C1A894A02007DBFEE /* Main.storyboard */,
+				42B2F28F1A894A02007DBFEE /* Images.xcassets */,
+				42B2F2911A894A02007DBFEE /* LaunchScreen.xib */,
+				42B2F2861A894A02007DBFEE /* Supporting Files */,
+			);
+			path = "Drawing In Code Part 1 Class Exercise";
+			sourceTree = "<group>";
+		};
+		42B2F2861A894A02007DBFEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42B2F2871A894A02007DBFEE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42B2F29B1A894A02007DBFEE /* Drawing In Code Part 1 Class ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				42B2F29E1A894A02007DBFEE /* Drawing_In_Code_Part_1_Class_ExerciseTests.swift */,
+				42B2F29C1A894A02007DBFEE /* Supporting Files */,
+			);
+			path = "Drawing In Code Part 1 Class ExerciseTests";
+			sourceTree = "<group>";
+		};
+		42B2F29C1A894A02007DBFEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42B2F29D1A894A02007DBFEE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42B2F2821A894A02007DBFEE /* Drawing In Code Part 1 Class Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B2F2A21A894A02007DBFEE /* Build configuration list for PBXNativeTarget "Drawing In Code Part 1 Class Exercise" */;
+			buildPhases = (
+				42B2F27F1A894A02007DBFEE /* Sources */,
+				42B2F2801A894A02007DBFEE /* Frameworks */,
+				42B2F2811A894A02007DBFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawing In Code Part 1 Class Exercise";
+			productName = "Drawing In Code Part 1 Class Exercise";
+			productReference = 42B2F2831A894A02007DBFEE /* Drawing In Code Part 1 Class Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42B2F2971A894A02007DBFEE /* Drawing In Code Part 1 Class ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B2F2A51A894A02007DBFEE /* Build configuration list for PBXNativeTarget "Drawing In Code Part 1 Class ExerciseTests" */;
+			buildPhases = (
+				42B2F2941A894A02007DBFEE /* Sources */,
+				42B2F2951A894A02007DBFEE /* Frameworks */,
+				42B2F2961A894A02007DBFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B2F29A1A894A02007DBFEE /* PBXTargetDependency */,
+			);
+			name = "Drawing In Code Part 1 Class ExerciseTests";
+			productName = "Drawing In Code Part 1 Class ExerciseTests";
+			productReference = 42B2F2981A894A02007DBFEE /* Drawing In Code Part 1 Class ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42B2F27B1A894A02007DBFEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Lisa A Clark";
+				TargetAttributes = {
+					42B2F2821A894A02007DBFEE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					42B2F2971A894A02007DBFEE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 42B2F2821A894A02007DBFEE;
+					};
+				};
+			};
+			buildConfigurationList = 42B2F27E1A894A02007DBFEE /* Build configuration list for PBXProject "Drawing In Code Part 1 Class Exercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42B2F27A1A894A02007DBFEE;
+			productRefGroup = 42B2F2841A894A02007DBFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42B2F2821A894A02007DBFEE /* Drawing In Code Part 1 Class Exercise */,
+				42B2F2971A894A02007DBFEE /* Drawing In Code Part 1 Class ExerciseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42B2F2811A894A02007DBFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B2F28E1A894A02007DBFEE /* Main.storyboard in Resources */,
+				42B2F2931A894A02007DBFEE /* LaunchScreen.xib in Resources */,
+				42B2F2AB1A894B0C007DBFEE /* XLME Logo.png in Resources */,
+				42B2F2901A894A02007DBFEE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B2F2961A894A02007DBFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42B2F27F1A894A02007DBFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B2F28B1A894A02007DBFEE /* ViewController.swift in Sources */,
+				42B2F2891A894A02007DBFEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B2F2941A894A02007DBFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B2F29F1A894A02007DBFEE /* Drawing_In_Code_Part_1_Class_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42B2F29A1A894A02007DBFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42B2F2821A894A02007DBFEE /* Drawing In Code Part 1 Class Exercise */;
+			targetProxy = 42B2F2991A894A02007DBFEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42B2F28C1A894A02007DBFEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B2F28D1A894A02007DBFEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42B2F2911A894A02007DBFEE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B2F2921A894A02007DBFEE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42B2F2A01A894A02007DBFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42B2F2A11A894A02007DBFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42B2F2A31A894A02007DBFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Drawing In Code Part 1 Class Exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42B2F2A41A894A02007DBFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Drawing In Code Part 1 Class Exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42B2F2A61A894A02007DBFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Drawing In Code Part 1 Class ExerciseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drawing In Code Part 1 Class Exercise.app/Drawing In Code Part 1 Class Exercise";
+			};
+			name = Debug;
+		};
+		42B2F2A71A894A02007DBFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Drawing In Code Part 1 Class ExerciseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drawing In Code Part 1 Class Exercise.app/Drawing In Code Part 1 Class Exercise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42B2F27E1A894A02007DBFEE /* Build configuration list for PBXProject "Drawing In Code Part 1 Class Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B2F2A01A894A02007DBFEE /* Debug */,
+				42B2F2A11A894A02007DBFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B2F2A21A894A02007DBFEE /* Build configuration list for PBXNativeTarget "Drawing In Code Part 1 Class Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B2F2A31A894A02007DBFEE /* Debug */,
+				42B2F2A41A894A02007DBFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42B2F2A51A894A02007DBFEE /* Build configuration list for PBXNativeTarget "Drawing In Code Part 1 Class ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B2F2A61A894A02007DBFEE /* Debug */,
+				42B2F2A71A894A02007DBFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42B2F27B1A894A02007DBFEE /* Project object */;
+}
